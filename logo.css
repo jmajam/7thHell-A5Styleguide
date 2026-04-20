@@ -22,3 +22,28 @@
 .logo-text {
     margin-left: 10vw;
 }
+
+.favicon-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.favicon-list li {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 8px;
+}
+
+.icon-wrap {
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-wrap img {
+    display: block;
+}
