@@ -1,0 +1,117 @@
+/* Seven-Fifteen local font */
+@font-face {
+    font-family: "SevenFifteen";
+    src: url("fonts/SevenFifteenMonoRounded-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Variables */
+:root {
+    --font-primary: "SevenFifteen", sans-serif;
+    --font-fallback: sans-serif;
+    --example-bg: #333;
+}
+
+.site-header {
+    font-family: var(--font-fallback);
+}
+
+/* Global */
+body {
+    font-family: var(--font-primary);
+    background: #ffffff; /* white page */
+    color: #ffffff; /* white text */
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    padding: 20px;
+}
+
+.page-title {
+    color: black;
+}
+/* Example wrapper */
+.example {
+    background: var(--example-bg);
+    padding: 16px;
+    letter-spacing: 0.07rem;
+    border-radius: 6px;
+    margin-bottom: 1em;
+}
+
+.section-heading {
+    color: black;
+    font-family: sans-serif;
+}
+
+/* Headings */
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 0.5em;
+    line-height: 1.2;
+}
+
+.h1-example {
+    font-size: 48px;
+}
+h2 {
+    font-size: 32px;
+}
+h3 {
+    font-size: 24px;
+}
+h4 {
+    font-size: 20px;
+}
+h5 {
+    font-size: 18px;
+}
+h6 {
+    font-size: 16px;
+}
+
+/* Paragraphs */
+p {
+    font-size: 16px;
+    margin-bottom: 1em;
+}
+
+p.small {
+    font-size: 14px;
+}
+p.large {
+    font-size: 18px;
+}
+
+/* Description text (black) */
+.desc {
+    font-family: var(--font-fallback);
+    font-size: 1.2rem;
+    color: #000000;
+    margin: 0.5em 0 1.5em;
+}
+
+/* Lists */
+ul,
+ol {
+    margin-left: 1.5em;
+}
+
+li {
+    margin-bottom: 0.4em;
+}
+
+/* Blockquote */
+blockquote {
+    font-size: 18px;
+    font-style: italic;
+    border-left: 4px solid #66ccff;
+    padding-left: 1em;
+    margin: 0;
+}
