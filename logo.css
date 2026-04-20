@@ -1,0 +1,24 @@
+.game-logo {
+    width: 80%;
+    display: block;
+    margin: 1rem auto;
+}
+
+.logo-examples {
+    display: flex;
+    flex-direction: column;
+}
+
+.logo-example {
+    margin-bottom: 2rem;
+    display: flex;
+    align-items: center;
+}
+
+.logo-image {
+    width: 30%;
+}
+
+.logo-text {
+    margin-left: 10vw;
+}
