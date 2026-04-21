@@ -5,11 +5,12 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Typography — Styleguide</title>
         <link rel="stylesheet" href="styles.css" />
+        <link rel="stylesheet" href="typography.css" />
     </head>
 
     <body>
         <header class="site-header">
-            <h1>Typography</h1>
+            <h1 class="page-title">Typography</h1>
             <nav class="main-nav">
                 <ul>
                     <li><a href="logo.html">Logo</a></li>
@@ -21,19 +22,107 @@
         </header>
 
         <main class="content">
+            <!-- HEADINGS -->
             <section>
-                <h2>Primary Typeface</h2>
-                <p>Describe the main typeface used across the brand.</p>
+                <h2 class="section-heading">Heading Samples</h2>
+
+                <div class="example">
+                    <h1 class="h1-example">Heading 1 — Title Screen</h1>
+                </div>
+                <p class="desc">
+                    font-size: 48px; font-weight: normal; line-height: 1.2;
+                </p>
+
+                <div class="example">
+                    <h2>Heading 2 — Section Header</h2>
+                </div>
+                <p class="desc">
+                    font-size: 32px; font-weight: normal; line-height: 1.2;
+                </p>
+
+                <div class="example">
+                    <h3>Heading 3 — Subsection</h3>
+                </div>
+                <p class="desc">
+                    font-size: 24px; font-weight: normal; line-height: 1.2;
+                </p>
+
+                <div class="example">
+                    <h4>Heading 4 — UI Label</h4>
+                </div>
+                <p class="desc">
+                    font-size: 20px; font-weight: normal; line-height: 1.2;
+                </p>
+
+                <div class="example">
+                    <h5>Heading 5 — Minor Label</h5>
+                </div>
+                <p class="desc">
+                    font-size: 18px; font-weight: normal; line-height: 1.2;
+                </p>
+
+                <div class="example">
+                    <h6>Heading 6 — Small UI Text</h6>
+                </div>
+                <p class="desc">
+                    font-size: 16px; font-weight: normal; line-height: 1.2;
+                </p>
             </section>
 
+            <!-- PARAGRAPHS -->
             <section>
-                <h2>Secondary Typeface</h2>
-                <p>Explain supporting fonts and their use cases.</p>
+                <h2 class="section-heading">Paragraphs</h2>
+
+                <div class="example">
+                    <p>
+                        This is a paragraph using Seven-Fifteen. Pixel-style
+                        like our game. This font has support for Arabic,
+                        Chinese*, Hindi, Japanese*, Korean, Thai, Cyrillic and
+                        Latin scripts, and a bunch more.
+                    </p>
+                </div>
+                <p class="desc">
+                    font-size: 16px; line-height: 1.4; margin-bottom: 1em;
+                </p>
+
+                <div class="example">
+                    <p class="small">This is small paragraph text.</p>
+                </div>
+                <p class="desc">font-size: 14px;</p>
+
+                <div class="example">
+                    <p class="large">This is large paragraph text.</p>
+                </div>
+                <p class="desc">font-size: 18px;</p>
             </section>
 
+            <!-- BLOCKQUOTE -->
             <section>
-                <h2>Hierarchy</h2>
-                <p>Define heading sizes, weights, and spacing rules.</p>
+                <h2 class="section-heading">Blockquote</h2>
+
+                <div class="example">
+                    <blockquote>“This is a blockquote example.”</blockquote>
+                </div>
+                <p class="desc">
+                    font-size: 18px; font-style: italic;<br />
+                    border-left: 4px solid #66ccff; padding-left: 1em;
+                </p>
+            </section>
+
+            <!-- LISTS -->
+            <section>
+                <h2 class="section-heading">Lists</h2>
+
+                <div class="example">
+                    <ul>
+                        <li>List item one</li>
+                        <li>List item two</li>
+                    </ul>
+                </div>
+                <p class="desc">
+                    font-size: 16px; margin-left: 1.5em; li margin-bottom:
+                    0.4em;
+                </p>
             </section>
         </main>
 
