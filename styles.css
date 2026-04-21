@@ -155,13 +155,13 @@ h3 {
 
 .ui-example p {
     margin-top: 0.5rem;
-    font-family: "Pixel 5", monospace;
+    /* font-family: "Pixel 5", monospace; */
     font-size: 0.9rem;
 }
 
 section h3 {
     margin-top: 2rem;
-    font-family: "Pixel 5", monospace;
+    /* font-family: "Pixel 5", monospace; */
 }
 
 /* interactive buttons */
@@ -178,7 +178,7 @@ section h3 {
 }
 
 .pixel-btn {
-    font-family: "Pixel 5", monospace;
+    /* font-family: "Pixel 5", monospace; */
     font-size: 1rem;
     padding: 0.6rem 1.2rem;
     border: 3px solid #000;
